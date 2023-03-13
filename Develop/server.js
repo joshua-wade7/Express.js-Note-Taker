@@ -6,7 +6,7 @@ const path = require("path");
 const PORT = 3001;
 //ADD PORT let it = 3001
 
-const api = require("./routes/index");
+const api = require("./routes/index.js");
 const app = express();
 
 //Need to setup middleware for parsing JSON and urlencoded form data
